@@ -10,7 +10,7 @@
         [ "modifyvm", "{{.Name}}", "--vram", "128" ],
         [ "modifyvm", "{{.Name}}", "--cpus", "1" ]
       ],
-       "guest_additions_mode" : "attach",
+       "guest_additions_mode" : "disable",
        "headless": true,
        "communicator": "winrm",
        "winrm_username": "vagrant",
